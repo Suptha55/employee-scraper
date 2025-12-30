@@ -1,9 +1,10 @@
+#Contains all data cleaning and transformation logic
 import pandas as pd
 
 def transform_data(raw_data):
     df = pd.DataFrame(raw_data)
 
-    # Create Full Name
+    # Creates full name using the first and last name
     df["Full Name"] = df["first_name"] + " " + df["last_name"]
 
     # Designation logic

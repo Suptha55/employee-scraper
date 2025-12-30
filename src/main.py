@@ -1,5 +1,5 @@
+#Entry point for the employee data processing application
 import logging
-
 from fetch_data import fetch_employee_data
 from transform_data import transform_data
 
