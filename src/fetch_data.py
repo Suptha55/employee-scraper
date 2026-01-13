@@ -1,3 +1,4 @@
+#used to make http request
 import requests
 import logging
 from time import sleep
